@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import Category from './repas/components/category';
+import Categories from "./components/Categories/Categories";
 import Meal from './repas/components/meal';
 import Categories from './repas/components/categories';
 import 'bootstrap/dist/css/bootstrap.min.css';
